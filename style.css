@@ -1,0 +1,306 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0px;
+  background-color: #ffffff;
+  font-family: "Lato", "B612", sans-serif;
+  height: 100%;
+}
+
+.topnav {
+  background-color: #2d3142;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.topnav a {
+  color: #bfc0c0;
+  float: left;
+  text-align: center;
+  padding: 18px 25px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #ef8354;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: #ef8354;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#Home {
+  width: 100%;
+  height: 100%;
+}
+
+#jumbotron {
+  width: 100%;
+  height: 100%;
+  background-image: url(pexels-kevin-ku-577585.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: block;
+  background-size: cover;
+}
+
+#jumbotron .container {
+  position: relative;
+  top: 50%;
+  left: 43%;
+  color: #ffffff;
+  display: inline-block;
+  z-index: 0;
+}
+
+.container h1 {
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+  font-size: 425%;
+}
+
+.container p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 225%;
+}
+
+.Section {
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  padding-bottom: 75px;
+  text-align: justify;
+}
+
+.Section h1 {
+  color: #ef8354;
+  margin-left: 11%;
+  margin-bottom: 30px;
+  font-size: 225%;
+}
+
+.SectionAlt {
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  position: relative;
+  padding-bottom: 75px;
+  text-align: justify;
+}
+
+.SectionAlt h1,
+h3 {
+  color: #ef8354;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  font-size: 225%;
+}
+
+.Section #aboutMe {
+  position: absolute;
+  top: -75px;
+}
+
+.SectionAlt #Resume {
+  position: absolute;
+  top: -75px;
+}
+
+.Section #Portfolio {
+  position: absolute;
+  top: -75px;
+}
+
+.text {
+  margin-left: 11%;
+}
+
+.text p {
+  text-align: justify;
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.photo {
+  float: right;
+  border: 3px solid #bfc0c0;
+  margin-left: 2%;
+  margin-right: 10%;
+  margin-bottom: 70px;
+}
+
+.education {
+  clear: both;
+}
+
+.entity {
+  width: 60%;
+  margin: 50px auto;
+  line-height: 30px;
+  color: #2d3142;
+  display: flex;
+}
+
+.resume_left {
+  width: 50%;
+}
+
+.resume_right {
+  width: 50%;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.resume_right p {
+  text-align: justify;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+  align-items: center;
+  margin: 0 20%;
+  clear: both;
+}
+
+.grid-item {
+  flex: 1 0 24%;
+  justify-content: center;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.portfolio-logo {
+  border: 3px solid #bfc0c0;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin: 0 15px 10px 0;
+}
+
+.skill-title {
+  width: 45%;
+  display: inline-block;
+}
+
+.skill-rating {
+  background-color: #ef8354;
+  float: right;
+  text-align: right;
+  color: #ffffff;
+}
+
+.entity.resume_right.list.skill-rating {
+  margin-left: 500px;
+}
+
+.skill-rating.sql {
+  width: 54%;
+}
+
+.skill-rating.python {
+  width: 48%;
+}
+
+.skill-rating.vscode {
+  width: 48%;
+}
+
+.skill-rating.power-bi {
+  width: 45%;
+}
+
+.skill-rating.pm {
+  width: 45%;
+}
+
+.skill-rating.ml {
+  width: 42%;
+}
+
+.skill-rating.statistics {
+  width: 42%;
+}
+
+.skill-rating.git {
+  width: 42%;
+}
+
+.skill-rating.agile {
+  width: 36%;
+}
+
+.skill-rating.sas {
+  width: 36%;
+}
+
+.skill-rating.sap-bo {
+  width: 36%;
+}
+
+.skill-rating.dl {
+  width: 30%;
+}
+
+.skill-rating.oop {
+  width: 30%;
+}
+
+.skill-rating.html {
+  width: 24%;
+}
+
+.skill-rating.spark {
+  width: 15%;
+}
+
+.skill-rating.docker {
+  width: 12%;
+}
+
+.skill-rating.css {
+  width: 12%;
+}
+
+.skill-rating.django {
+  width: 9%;
+}
+
+.skill-rating.hadoop {
+  width: 6%;
+}
+
+.skill-rating.nosql {
+  width: 6%;
+}
